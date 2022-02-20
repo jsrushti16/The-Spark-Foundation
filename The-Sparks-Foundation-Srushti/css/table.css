@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h2{
+	color: black;
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #9de9f7;
+    transition: 1s;
+}
+.pt-4{
+	color: blue;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
